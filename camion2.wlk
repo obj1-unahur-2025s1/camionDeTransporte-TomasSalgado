@@ -53,6 +53,7 @@ object camion {
     }
 
     method cargar(unaCosa){
+        self.cargarCosa(unaCosa)
         unaCosa.consecuenciaCarga()
     }
 }
